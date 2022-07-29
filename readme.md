@@ -7,6 +7,8 @@
 
 >While doing all these projects i realize that my typing speed is becoming so good now and I can type my code even without seeing the keyboard, which is really a good and satisfying experience.
 
+>While creating this project I also learned about the Flex Wrap property along with other flexbox properties.
+
  
 ## **Time Taken** ##
 >It takes me around 7 hours only
