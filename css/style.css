@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 3% 10%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.navbar li{
+    list-style: none;
+    font-size: 12px;
+    margin: 0 15px;
+    color: #676767;
+}
+
+.navbar li:first-child{
+    color: black;
+    font-weight: 700;
+}
+
+.logo{
+    width: 25%;
+}
+
+.logo img{
+    height: 25px;
+    width: 70px;
+}
+
+.navbar button{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 15px;
+    color: #189bf2;
+    border: 1.5px solid #189bf2;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-left{
+    width: 500px;
+}
+
+.container-left h1{
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+
+.container-left p{
+    font-size: 12px;
+    color: #676767;
+    padding-right: 15%;
+    margin: 5% 0;
+    line-height: 25px;
+}
+
+.btn{
+    background-color: #0791f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.container-right img{
+    width: 450px;
+    height: 320px;
+}
+
+/* dsigning the second page of document */
+.second-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.second-page-left img{
+    width: 450px;
+    height: 360px;
+    margin-right: 40px;
+}
+
+.second-page-right{
+    width: 500px;
+}
+
+.second-page-right h1{
+    font-size: 2.1rem;
+    color: #14263f;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+
+.second-page-right p{
+    font-size: 12px;
+    color: #676767;
+    line-height: 25px;
+    padding-right: 20%;
+    margin: 5% 0;
+}
+
+/* technical support page design */
+.technical-support{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+}
+
+.technical-support-left h1{
+    font-size: 2.1rem;
+    color: #14263f;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+
+.technical-support-left p{
+    font-size: 12px;
+    color: #676767;
+    line-height: 25px;
+    margin: 5% 0;
+    width: 500px;
+}
+
+.technical-support-right img{
+    width: 550px;
+    height: 450px;
+}
+
+/* designing the service page of the website */
+.service-page{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 10%;
+}
+
+.service-page-text{
+    display: flex;
+    margin: 25px 0;
+}
+
+.service-page-text h1{
+    font-size: 2.1rem;
+    line-height: 50px;
+    color: #14263f;
+    text-transform: capitalize;
+}
+
+.service-page-text p{
+    font-size: 12px;
+    color: #676767;
+    width: 700px;
+    padding: 0 100px;
+    line-height: 25px;
+}
+
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-option{
+    width: 250px;
+    height: 190px;
+    margin: 20px 30px;
+}
+
+.service-option p{
+    font-size: 12px;
+    color: #676767;
+    line-height: 20px;
+}
+
+.service-option h3{
+    text-transform: capitalize;
+}
+
+/* pricing section design */
+.pricing{
+    width: 100vw;
+    height: 120vh;
+    background-color: #08baf7;
+    padding: 0 10%;
+    margin-top: 120px;
+}
+
+.pricing > h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 290px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.top-text{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.top-text h3{
+    padding: 0 20px;
+    padding-top: 30px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.top-text p{
+    padding: 0 20px;
+    color: #676767;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.card ul{
+    padding: 30px 20px;
+}
+
+.card ul li{
+    list-style: none;
+    padding: 15px 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #717a91;
+}
+
+.card ul li i{
+    font-size: 15px;
+    padding-right: 15px;
+    color: green;
+    fill: transparent;
+}
+
+.price-bottom{
+    padding: 10px 50px;
+}
+
+.price-bottom h2{
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+.price-bottom p{
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0;
+    color: #717a91;
+}
+
+.price-bottom button{
+    font-size: 12px;
+    color: #078ff1;
+    border: 1.5px solid #078ff1;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 12px 35px;
+    text-transform: capitalize;
+    margin: 0 16px;
+}
+
+/* designing the active card  */
+.top-text-active{
+    background-color: #353535;
+    color: white;
+}
+
+.top-text-active p{
+    color: white;
+}
+
+#card2 button{
+    background-color: #0684ef;
+    color: white;
+}
+
+/* testimonial section design */
+.testimonial{
+    margin-top: 10%;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.testimonial h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.1rem;
+}
+
+.testimonial > p{
+    text-align: center;
+    font-size: 12px;
+    color: #979dad;
+    margin: 20px 15%;
+}
+
+.testimonial-cards{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.testimonial-card{
+    margin: 35px 0;
+    width: 400px;
+}
+
+.testimonial-card-text p{
+    color: #9ba1b1;
+}
+
+.testimonial-person{
+    margin: 15px 0;
+    display: flex;
+}
+
+.circle-image{
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.person-details h2{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.person-details p{
+    font-size: 12px;
+}
+
+/* designing the registration section */
+.registration-section{
+    padding: 7% 8%;
+    background-color: #147eee;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+.registration-section-left{
+    font-size: 1.2rem;
+}
+
+.registration-section-left p{
+    font-size: 12px;
+    width: 450px;
+    padding-top: 25px;
+    line-height: 20px;
+}
+
+.registration-section-right button{
+    color: white;
+    background-color: transparent;border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 280px;
+}
+
+/* footer section designing */
+footer{
+    padding: 0 5%;
+    margin-top: 12%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footer-logo-section{
+    width: 250px;
+}
+
+.footer-logo-section img{
+    width: 80px;
+    height: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-logo-section p{
+    line-height: 20px;
+    color: #8b93a5;
+}
+
+.footer-heading{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.footer-menu-section ul li{
+    margin: 20px 0;
+    color: #8b93a5;
+    text-transform: capitalize;
+}
+
+.footer-links-section ul li{
+    margin: 20px 0;
+    color: #8b93a5;
+    text-transform: capitalize;
+}
+
+.footer-overview-section ul li{
+    margin: 20px 0;
+    color: #8b93a5;
+    text-transform: capitalize;
+}
+
+.footer-social-section h3{
+    text-align: center;
+}
